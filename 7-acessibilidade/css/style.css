@@ -20,27 +20,40 @@ a {
 }
 
 h2 {
+    text-align: center;
     margin-bottom: 32px;
-    padding-left: 1px;
+       
     
 }
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;    
+    margin: 0 auto;
+        
 }
 
 .dark {
     background-color: #111111;
     color: #ebebeb;
+    
 }
 
 .dark-link {
     color: #68B3EE;
     border-bottom: 1px solid #68B3EE;
     
+    
 }
 
+.light-link {
+    color: #68B3EE;
+    border-bottom:1px solid #68B3EE;
+
+}
+
+
+.light-link:hover,
+.light-link:focus,
 .dark-link:hover,
 .dark-link:focus {
     color: #2667AD;
@@ -107,6 +120,7 @@ header a:focus {
     justify-content: flex-end;
     align-items: center;
     
+    
 }
 
 .hero h1 {
@@ -124,7 +138,8 @@ header a:focus {
 
 .gallery {
     padding: 64px 24px 96px;
-    border-top: 3px solid #f13239;    
+    border-top: 3px solid #f13239;
+        
 }
 
 .gallery h2 {
@@ -137,12 +152,14 @@ header a:focus {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+   
 }
 
 .gallery-row figure {
     /* flex-grow esticar/ flex-shrink encolher / flex-basis tamanho base*/
     flex: 1 1 250px;
 }
+
 
 .gallery-row figure img {
     width: 100%;
